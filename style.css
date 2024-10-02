@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    /* background-color: yellow; */
+    background-image: url(./Three.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    border: 5px solid rgb(0, 0, 0); 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.game-containar{
+    /* border: 5px solid rgb(0, 0, 0); */
+    background-color: rgba(0, 0, 0, 0.651);
+    color: yellow;
+    padding: 30px;
+    border-radius: 30px;
+    align-items: center;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.9);
+}
+h1{
+    filter: drop-shadow(-2px -2px 8px black);
+    /* color: transparent; */
+    text-align: center;
+}
+.btn{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.568);
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.9);
+}
+.btn:hover{
+    background-color: rgba(255, 255, 0, 0.699);
+    box-shadow: 0px 0px 20px rgb(252, 248, 10);
+    color: black;
+    font-weight: 600;
+}
+.btn:active{
+    background-color: yellow;
+    color: rgb(255, 255, 255);
+}
+footer{
+    text-align: center;
+}
+#game-box{
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    /* filter: drop-shadow(-1px -1px 9px black); */
+}
